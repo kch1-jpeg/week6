@@ -1,0 +1,91 @@
+
+.location {
+  width: 380px;
+  border: 15px solid pink;
+  padding: 30px 20px;
+  margin: 10px auto 0;
+  display: center;
+  left: 80%;
+}
+.inputCity {
+  width: 300px;
+  border: 0px solid pink;
+  padding: 10px 0px 8px 3px;
+  margin: 10px 10px 10px 20px;
+  display: inline-block;
+  left: 80%;
+}
+
+h1 {
+  color: orange;
+  font-size: 45px;
+}
+h2 {
+  color: aquamarine;
+  font-size: 20px;
+}
+.units {
+  position: relative;
+  top: -20px;
+  font-size: 20px;
+}
+a:link,
+a:visited {
+  color: rgb(255, 0, 128);
+}
+.box {
+  width: 650px;
+  border: 15px solid #89cff0;
+  padding: 10px 10px 10px 50px;
+  margin: 10px auto ;
+  display: center;
+}
+.col-md-2 {
+  border-color: #ff7a59;
+  background: #afeeee;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.col-md-2:hover {
+  background: rgb(255, 194, 203);
+  color: rgb(255, 0, 128);
+  border-radius: 50px;
+  cursor: grab;
+  opacity: 50;
+}
+.row .day {
+  position: relative;
+  left: 0%;
+  top: 0px;
+}
+.row .first {
+  position: relative;
+  left: 4px;
+  top: 2px;
+}
+
+.row .second {
+  position: relative;
+  left: 8px;
+  top: 10px;
+  font-size: 30px;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.submitButton, .current-location {
+  color:rgb(255, 0, 128);
+  background:#ff7a59;
+  border-radius: 50px;
+  opacity: 50;
+  border:none;
+}
+

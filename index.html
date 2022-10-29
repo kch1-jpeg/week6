@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+     <link rel="stylesheet" href="src/index.js" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous"
+  />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="https://kit.fontawesome.com/8bcf669dac.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+      
+    </head>
+    <div id="wrapper">
+  <body>
+<div class="container">
+    <div class="location">
+    <h1> <span id="temperature" class="temperature">12</span>
+      <span class="units"> 
+      <a href="#" id="celsius-link">°C</a> |
+      <a href="#" id="fahrenheit-link">°F</a>
+    </span>
+      <i class="fa-solid fa-sun"></i>
+    </br> <span id="city" class="city">
+    London</span>
+    </h1>
+    <h2> <span id="date" class="date">
+      13:30</span>
+    </br>
+    <span id="min"> 1°c </span> / <span id="max"> 12°c </span>
+  </h2>
+    <form class="searchForm" id="searchForm"> 
+      <input type="search" placeholder="SEARCH CITY" id="inputCity"autofocus="on"
+      autocomplete="off" class="inputCity"/>
+      <i class="fa-solid fa-magnifying-glass"></i>
+    <input class="submitButton" type="submit" value="Search"/>
+        <button
+          class="current-location"
+          id="current-location" >
+          Current
+        </button>
+      </form>
+  </div>
+</div>
+<div class="box">
+        <div class="row">
+            <div class="col-md-2"><span class="day">Monday </br> <span class="first"> 8°c  <i class="fa-solid fa-cloud second"></i></div>
+            <div class="col-md-2"><span class="day">Tuesday <span class="first"> 10°c  <i class="fa-solid fa-wind second"></i></div>
+            <div class="col-md-2"><span class="day">Wednesday <span class="first"> 13°c <i class="fa-solid fa-bolt second"></i></div>
+            <div class="col-md-2"><span class="day">Thursday <span class="first"> 16°c <i class="fa-solid fa-umbrella second"></i></div>
+            <div class="col-md-2"><span class="day">Friday </br> <span class="first"> 2°c <i class="fa-solid fa-snowflake second"></i></div>
+          </div>
+        </div>
+
+
+  </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</div>
+</html>
