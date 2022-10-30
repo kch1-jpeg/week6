@@ -59,7 +59,7 @@ function showCityName(event) {
   event.preventDefault();
   let cityName = document.querySelector("input#inputCity");
   let cityNameDisplay = document.querySelector("#city");
-  cityNameDisplay.innerHTML = `${cityName.value}`;
+  searchCity(cityName.value);
   searchCity(cityName);
 }
 let citySearchEngine = document.querySelector("form#searchForm");
